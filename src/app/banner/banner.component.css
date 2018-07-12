@@ -17,7 +17,7 @@ section .carousel-caption p {
   text-align: left;
 }
 
-section .btn-dark, section .btn-dark:active {
+section button, section button:active {
   color: #ECEFF1;
   background-color: #630c1c;
   border-color: #630c1c;

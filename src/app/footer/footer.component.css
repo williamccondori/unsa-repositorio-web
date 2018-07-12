@@ -5,7 +5,7 @@ section {
 
 section #superior {
   padding: 50px 0 50px 0;
-  background-color: #64001D;
+  background-color: #630c1c;
 }
 
 section #inferior {
@@ -20,7 +20,19 @@ section #inferior p {
 }
 
 section h1 {
+  font-weight: bold;
   font-size: 1em;
   color: #ECEFF1;
+  padding: 0 0 10px 0;
+}
+
+section p {
+  text-align: justify;
+  font-size: 1em;
+  color: #ECEFF1;
+}
+
+section button, section button:active {
+  color: #630c1c;
 }
 /*# sourceMappingURL=footer.component.css.map */

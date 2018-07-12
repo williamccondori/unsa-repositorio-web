@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,700");
+section {
+  font-family: 'Exo 2', sans-serif;
+}
+
+section #superior {
+  padding: 50px 0 50px 0;
+  background-color: #64001D;
+}
+
+section #inferior {
+  padding: 30px 0 30px 0;
+  background-color: #263238;
+}
+
+section #inferior p {
+  font-size: 0.8em;
+  color: #b0bec5;
+  margin: 0;
+}
+
+section h1 {
+  font-size: 1em;
+  color: #ECEFF1;
+}
+/*# sourceMappingURL=footer.component.css.map */

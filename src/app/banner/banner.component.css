@@ -1,0 +1,25 @@
+section {
+  font-family: 'Exo 2', sans-serif;
+}
+
+section .carousel-caption {
+  padding: 10px;
+  text-align: left;
+  background-color: rgba(38, 50, 56, 0.35);
+}
+
+section .carousel-caption h5 {
+  font-weight: bold;
+  color: #630c1c;
+}
+
+section .carousel-caption p {
+  text-align: left;
+}
+
+section .btn-dark, section .btn-dark:active {
+  color: #ECEFF1;
+  background-color: #630c1c;
+  border-color: #630c1c;
+}
+/*# sourceMappingURL=banner.component.css.map */

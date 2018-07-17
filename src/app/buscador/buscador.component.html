@@ -1,3 +1,16 @@
-<p>
-  buscador works!
-</p>
+<section class="animated fadeIn">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="text-center">
+          <img src="" alt="imagen">
+          <input type="text">
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>Resultados</h2>
+        <app-enlace *ngFor="let resultado of resultados" [resultado]=resultado></app-enlace>
+      </div>
+    </div>
+  </div>
+</section>

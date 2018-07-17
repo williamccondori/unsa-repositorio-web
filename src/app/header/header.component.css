@@ -1,0 +1,48 @@
+section {
+  background-color: #eeeeee;
+  font-family: 'Exo 2', sans-serif;
+}
+
+section #titulo {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section #titulo img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+section #titulo h1 {
+  font-size: 1.2em;
+  color: #630c1c;
+  font-weight: bolder;
+}
+
+section #titulo h2 {
+  font-size: 0.8em;
+  color: #263238;
+  font-weight: bolder;
+}
+
+section .navbar {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #630c1c !important;
+}
+
+section .navbar button, section .navbar button:active, section .navbar button:focus {
+  outline: none !important;
+}
+
+section .navbar .navbar-nav a {
+  font-weight: bolder;
+  color: #ECEFF1;
+}
+
+section .navbar .navbar-nav a i {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=header.component.css.map */

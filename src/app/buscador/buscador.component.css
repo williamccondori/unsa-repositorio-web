@@ -1,4 +1,25 @@
 section {
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+section h1 {
+  font-size: 1em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #630c1c;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+section .form-group button {
+  margin-right: 5px;
+}
+
+section .form-group .btn-light, section .form-group .btn-light:active {
+  color: #ECEFF1;
+  background-color: #630c1c;
+  border-color: #630c1c;
 }
 /*# sourceMappingURL=buscador.component.css.map */

@@ -9,8 +9,7 @@ import { Location } from '@angular/common';
 })
 export class DetalleComponent implements OnInit {
 
-  constructor(    
-    private route: ActivatedRoute,
+  constructor(private route: ActivatedRoute,
     private location: Location) {
    }
 
@@ -20,6 +19,7 @@ export class DetalleComponent implements OnInit {
 
   obtenerDocumento(): void {
     const id = +this.route.snapshot.paramMap.get('id');
+    console.log(id);
   }
 
 }

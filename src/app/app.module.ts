@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,6 +15,8 @@ import { MessengerComponent } from './messenger/messenger.component';
 import { ExploradorComponent } from './explorador/explorador.component';
 import { DetalleComponent } from './detalle/detalle.component';
 import { ResultadoComponent } from './resultado/resultado.component';
+
+import { BuscadorService } from './services/buscador.service';
 
 @NgModule({
   declarations: [
@@ -30,9 +34,13 @@ import { ResultadoComponent } from './resultado/resultado.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [
+    BuscadorService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 
-import { DocumentoModel } from '../models/documento-model';
+import { DocumentoModel } from '../models/documento.model';
 import { MessageService } from './message.service';
 
 const httpOptions = {

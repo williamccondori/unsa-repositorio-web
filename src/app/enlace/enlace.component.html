@@ -1,20 +1,20 @@
 <section>
-  <a href="{{resultado.url}}">
-    <h1>{{resultado.titulo}}</h1>
+  <a href="detalle/{{documento.Id}}">
+    <h1>{{documento.Titulo}}</h1>
   </a>
   <p>Autor:
-    <span>{{resultado.autor}}</span> Año:
-    <span>{{resultado.anio}}</span>
+    <span>{{documento.Autor.NombreCompleto}}</span> Año:
+    <span>{{documento.Anio}}</span>
   </p>
-  <p class="text-muted">{{resultado.descripcion.substring(0, 300)}}...</p>
+  <p class="text-muted">{{documento.Resumen.substring(0, 300)}}...</p>
   <div>
     <span>Calificación:</span>
     <div class="calificacion">
-      <i *ngIf="resultado.calificacion > 0" class="fa fa-star"></i>
-      <i *ngIf="resultado.calificacion > 1" class="fa fa-star"></i>
-      <i *ngIf="resultado.calificacion > 2" class="fa fa-star"></i>
-      <i *ngIf="resultado.calificacion > 3" class="fa fa-star"></i>
-      <i *ngIf="resultado.calificacion > 4" class="fa fa-star"></i>
+      <i *ngIf="documento.Calificacion > 0" class="fa fa-star"></i>
+      <i *ngIf="documento.Calificacion > 1" class="fa fa-star"></i>
+      <i *ngIf="documento.Calificacion > 2" class="fa fa-star"></i>
+      <i *ngIf="documento.Calificacion > 3" class="fa fa-star"></i>
+      <i *ngIf="documento.Calificacion > 4" class="fa fa-star"></i>
     </div>
   </div>
 </section>

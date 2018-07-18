@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-import { ResultadoModel } from './resultado.model'
+import { DocumentoModel } from '../models/documento.model';
 
 @Component({
   selector: 'app-enlace',
@@ -9,12 +9,11 @@ import { ResultadoModel } from './resultado.model'
 })
 export class EnlaceComponent implements OnInit {
 
-  @Input() resultado:ResultadoModel
+  @Input() documento: DocumentoModel;
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.resultado)
   }
 
   counter(i: number) {
